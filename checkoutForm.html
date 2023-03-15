@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/checkoutForm.css"></link>
+    <script src="https://kit.fontawesome.com/0e205b39a4.js" crossorigin="anonymous"></script>
+    
+    <title>Checkout Form</title>
+</head>
+<body>
+    <div class="containerForm">
+        <div class="container1">
+            <div class="customerContainer">
+                    <h3>Customer Details</h3>
+                    <label for="firstName" > First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" placeholder="address">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" placeholder="City">
+                    <label for="city">Province:</label>
+                    <input type="text" id="province" name="province" placeholder="Province">
+                    <label for="zipCode">Zip Code:</label>
+                    <input type="text" id="zipCode" name="zipCode" placeholder="Zipcode">
+                    <br>
+                    
+                    <input type="submit" value="Continue to Checkout" class="button">    
+            </div>
+            <div class="paymentContainer">
+                    <h3>Mode of Payment</h3>
+                    <span>Accepted Payment:</span>
+                    <div class="icon-payment">
+                        <i class="fa-brands fa-cc-visa" style="color:blue"></i>
+                        <i class="fa-brands fa-cc-mastercard" style="color:red"></i>
+                        <i class="fa-solid fa-hand-holding-hand"></i>
+                        <i class="fa-brands fa-cc-paypal" style="color:darkblue"></i>
+                    </div>
+                    <p>Choose below:</p>
+                    <input type="radio" id="cod" name="paymentMethod" value="cod">
+                    <label for="cod">Cash On Delivery</label>
+                
+                    <br>
+    
+                    <input type="radio" id="creditcard" name="paymentMethod" value="creditcard">
+                    <label for="creditcard">Credit Card</label>
+    
+                    <br>
+    
+                    <input type="radio" id="gcash" name="paymentMethod" value="gcash">
+                    <label for="gcash">Gcash</label>
+                    <br>
+                    <br>
+                </div>
+                <div class="orderDetails">
+                    <h4>Shopping Cart</h4>
+                        <p>The Hobbit <span>$89.99</span></p>
+                        <p>A Walk to Remember<span>$39.99</span></p>
+                        <p>The Avengers<span>$10.00</span></p>
+                        <p>Tahan na, Tahanan <span>$16.99</span></p>
+                        <p>Total <span class="price" style="color:black"><b>$156.97</b></span></p>
+                </div>
+        </div>
+    </div>
+</body>
+</html

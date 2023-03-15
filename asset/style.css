@@ -1,0 +1,238 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital@1&family=Noto+Serif+Lao:wght@100;400&family=Roboto:ital,wght@0,100;0,400;1,100&family=Source+Serif+Pro:wght@300&display=swap');
+
+  /* font-family: 'Lobster', cursive;
+  font-family: 'Lora', serif;
+  font-family: 'Noto Serif Lao', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Serif Pro', serif; */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(133, 133, 133, 0.541));
+    width: 100%
+}
+
+.nav-container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.nav-header {
+    background-color: rgba(12, 12, 12, 0.911);
+    justify-content: space-evenly;
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    width: 100%
+}
+
+.nav-header nav {
+    padding: 20px 50px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    margin: 5px;
+    
+}
+.nav-header a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    font-size: x-large;
+    
+}
+.nav-header i {
+    padding: 5px;
+}
+.navHeader-main   {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0 5px 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+   
+
+.navHeader-main .lib-name {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    padding: 0 10px;
+}
+.navHeader-main .lib-category a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Serif Lao', serif;
+    font-size: larger;
+    justify-content: center;
+}
+.searchBar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.searchBar input{
+    width: 500px;
+}
+
+
+
+.new-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.containerBooks {
+   
+    display:flex;
+    justify-content: center;
+    
+}
+.book-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+    
+}
+
+.book-content {
+    display:flex;
+    padding: 20px;
+
+}
+
+.books {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(192, 192, 192, 0.5), white);
+    
+
+}
+img {
+    height: 250px;
+    border-radius: 5px;
+}
+.book-content span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+}
+.book-content button  {
+    border: none;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.book-content i {
+    padding: 0px 5px 0 0;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    font-family: 'Noto Serif Lao', serif;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+footer .footer-content{
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    
+
+}
+
+.footer-content i{
+    font-size: medium;
+    padding: 0 10px
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        margin: 0;
+    }
+    .nav-container {
+        display:flex;
+    }
+    .nav-header {
+        display: flex;
+        flex-direction: row;
+       
+    }
+    
+    .nav-header .left-header { 
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav-header .right-header { 
+        display: flex;
+        flex-direction: row;
+    }
+    .navHeader-main {
+        display: flex;
+        flex-direction: row;
+    }
+    .navHeader-main  span{
+        display:flex;
+        justify-content: center;
+        
+    }
+    .new-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerBooks .book-container-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    footer {
+        display:flex;
+        flex-direction: row;
+        box-sizing: border-box;
+    }
+    footer .footer-content {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0 10px;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+  
